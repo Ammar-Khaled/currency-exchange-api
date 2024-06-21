@@ -1,0 +1,27 @@
+{
+  "name": "currency_exchange_public_api",
+  "version": "1.0.0",
+  "description": "a simple system that exposes a public API for currency exchange.",
+  "main": "app.js",
+  "scripts": {
+    "lint": "npx eslint -c eslint.config.mjs --fix .",
+    "start": "nodemon app.js",
+    "test": "mocha --exit"
+  },
+  "author": "Ammar-Khaled-Noor",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "memory-cache": "^0.2.0"
+  }
+}
