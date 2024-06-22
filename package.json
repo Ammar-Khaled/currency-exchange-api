@@ -1,12 +1,13 @@
 {
-  "name": "currency_exchange_public_api",
+  "name": "currency_exchange_api",
   "version": "1.0.0",
   "description": "a simple system that exposes a public API for currency exchange.",
   "main": "app.js",
   "scripts": {
     "lint": "npx eslint -c eslint.config.mjs --fix .",
-    "start": "nodemon app.js",
-    "test": "mocha --exit"
+    "start": "node app.js",
+    "test": "mocha --exit",
+    "dev": "nodemon app.js"
   },
   "author": "Ammar-Khaled-Noor",
   "license": "ISC",

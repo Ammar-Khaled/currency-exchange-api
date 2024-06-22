@@ -5,6 +5,9 @@ This is a simple currency exchange API that exposes the exchange rate between tw
 - [API Documentation](#api-documentation)
 - [Features](#features)
 - [Installation](#installation)
+- [Testing](#testing)
+- [Integration](#integration)
+- [Author](#author)
 
 ## API Documentation
 
@@ -58,30 +61,34 @@ This is a simple currency exchange API that exposes the exchange rate between tw
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/Ammar-Khaled/currency-exchange-api.git
+$ git clone https://github.com/Ammar-Khaled/currency-exchange-api.git
+$ cd currency-exchange-api
 ```
+
+If you don't have Node and npm installed on your machine, Visit the [official Node.js website](https://nodejs.org) and download the appropriate installer for your operating system.
+
 
 2. Install the dependencies
 ```bash
-npm install
+$ npm install
 ```
 
 3. Start the server
 ```bash
-npm start
+$ npm start
+app is listening on port 3000
 ```
 now you can access the API on `http://localhost:3000`
 
 ## Testing
 To run the tests, run the following command:
 ```bash
-npm test
+$ npm test
 ```
 
 ## Integration
-After checking around ten public APIs on stack overflow, we decided to integrate with [Exchange-API](https://github.com/fawazahmed0/exchange-api) to get the exchange rates because of its simplicity, unlimited requests, freeness and daily updates...
+After checking around ten public APIs on stack overflow, we decided to integrate with this [Exchange-API](https://github.com/fawazahmed0/exchange-api) to get the exchange rates because of its simplicity, unlimited requests, freeness and daily updates...
 
 
 ## Author
-Ammar Khaled
-
+Ammar Noor [Linkedin](https://www.linkedin.com/in/ammar-noor/)
